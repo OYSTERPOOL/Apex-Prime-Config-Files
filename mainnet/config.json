@@ -1,0 +1,116 @@
+{
+  "AlonzoGenesisFile": "/opt/apex/cnode/files/alonzo-genesis.json",
+  "ByronGenesisFile": "/opt/apex/cnode/files/byron-genesis.json",
+  "ConwayGenesisFile": "/opt/apex/cnode/files/conway-genesis.json",
+  "EnableP2P": true,
+  "LastKnownBlockVersion-Alt": 0,
+  "LastKnownBlockVersion-Major": 7,
+  "LastKnownBlockVersion-Minor": 0,
+  "MinNodeVersion": "9.2.1",
+  "PeerSharing": false,
+  "Protocol": "Cardano",
+  "RequiresNetworkMagic": "RequiresNoMagic",
+  "ShelleyGenesisFile": "/opt/apex/cnode/files/shelley-genesis.json",
+  "SnapshotInterval": 43200,
+  "MempoolCapacityBytesOverride": 8388608,
+  "EnableLogging": true,
+  "EnableLogMetrics": false,
+  "TargetNumberOfActivePeers": 20,
+  "TargetNumberOfEstablishedPeers": 50,
+  "TargetNumberOfKnownPeers": 100,
+  "TargetNumberOfRootPeers": 60,
+  "TraceAcceptPolicy": true,
+  "TraceBlockFetchClient": true,
+  "TraceBlockFetchDecisions": false,
+  "TraceBlockFetchProtocol": false,
+  "TraceBlockFetchProtocolSerialised": false,
+  "TraceBlockFetchServer": false,
+  "TraceChainDb": true,
+  "TraceChainSyncBlockServer": false,
+  "TraceChainSyncClient": true,
+  "TraceChainSyncHeaderServer": false,
+  "TraceChainSyncProtocol": false,
+  "TraceConnectionManager": true,
+  "TraceDNSResolver": true,
+  "TraceDNSSubscription": true,
+  "TraceDiffusionInitialization": true,
+  "TraceErrorPolicy": true,
+  "TraceForge": true,
+  "TraceHandshake": true,
+  "TraceInboundGovernor": true,
+  "TraceIpSubscription": true,
+  "TraceLedgerPeers": true,
+  "TraceLocalChainSyncProtocol": false,
+  "TraceLocalConnectionManager": true,
+  "TraceLocalErrorPolicy": true,
+  "TraceLocalHandshake": true,
+  "TraceLocalRootPeers": true,
+  "TraceLocalTxSubmissionProtocol": false,
+  "TraceLocalTxSubmissionServer": false,
+  "TraceMempool": true,
+  "TraceMux": false,
+  "TracePeerSelection": true,
+  "TracePeerSelectionActions": true,
+  "TracePublicRootPeers": true,
+  "TraceServer": true,
+  "TraceTxInbound": false,
+  "TraceTxOutbound": false,
+  "TraceTxSubmissionProtocol": false,
+  "TracingVerbosity": "NormalVerbosity",
+  "TurnOnLogMetrics": true,
+  "TurnOnLogging": true,
+  "defaultBackends": [
+    "KatipBK"
+  ],
+  "defaultScribes": [
+    [
+      "FileSK",
+      "/opt/apex/cnode/logs/node.json"
+    ]
+  ],
+  "hasEKG": 12959,
+  "hasPrometheus": [
+    "0.0.0.0",
+    12949
+  ],
+  "minSeverity": "Info",
+  "options": {
+    "mapBackends": {
+      "cardano.node.metrics": [
+        "EKGViewBK"
+      ],
+      "cardano.node.resources": [
+        "EKGViewBK"
+      ]
+    },
+    "mapSubtrace": {
+      "cardano.node.metrics": {
+        "subtrace": "Neutral"
+      }
+    }
+  },
+  "rotation": {
+    "rpKeepFilesNum": 10,
+    "rpLogLimitBytes": 50000000,
+    "rpMaxAgeHours": 24
+  },
+  "setupBackends": [
+    "KatipBK",
+    "EKGViewBK"
+  ],
+  "setupScribes": [
+    {
+      "scKind": "FileSK",
+      "scName": "/opt/apex/cnode/logs/node.json",
+      "scFormat": "ScJson",
+      "scRotation": null
+    }
+  ],
+  "MaxConcurrencyBulkSync": 1,
+  "MaxConcurrencyDeadline": 2,
+  "PBftSignatureThreshold": 0.6,
+  "ByronGenesisHash": "6b91f3c3d68ebeaa8dede86ba371a56ae60547dec6a8713d1fca6e403caa4605",
+  "ShelleyGenesisHash": "4fad52e08057e9cbfe71411719205c14c2e61e4dd4123541d0b6fa92971c89b0",
+  "AlonzoGenesisHash": "1cd94b66eade0670885744a858accdb2c3249e43e247db2c66b158050ec6a3e4",
+  "ConwayGenesisHash": "01649daebfc1ae5646c6aab2bf07533cdf626fd49e270ac4258be7fe253c3cc1"
+}
