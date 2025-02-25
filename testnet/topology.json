@@ -1,0 +1,219 @@
+{
+  "localRoots": [
+    {
+      "accessPoints": [
+        {
+          "address": "XXX.XXX.XXX.XXX",
+          "name": "apex core",
+          "port": XXXX
+        }
+      ],
+      "advertise": false,
+      "valency": 1,
+      "trustable": true
+    },
+ {
+      "accessPoints": [
+        {
+          "address": "167.235.223.34",
+          "name": "eternl1",
+          "port": 5358
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    },
+ {
+      "accessPoints": [
+        {
+          "address": "213.239.234.66",
+          "name": "eternl2",
+          "port": 5358
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    },
+ {
+      "accessPoints": [
+        {
+          "address": "15.235.84.202",
+          "name": "eternl3",
+          "port": 5358
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    },
+{
+      "accessPoints": [
+        {
+          "address": "74.249.184.246",
+          "name": "CBLK1",
+          "port": 5520
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    },
+{
+      "accessPoints": [
+        {
+          "address": "74.249.184.246",
+          "name": "CBLK1",
+          "port": 5521
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    },
+{
+      "accessPoints": [
+        {
+          "address": "168.138.7.7",
+          "name": "CBLK1",
+          "port": 5521
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    },
+{
+      "accessPoints": [
+        {
+          "address": "73.254.223.163",
+          "name": "CBLK1",
+          "port": 5520
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    },
+{
+      "accessPoints": [
+        {
+          "address": "84.247.179.231",
+          "name": "kash",
+          "port": 7000
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    },
+{
+      "accessPoints": [
+        {
+          "address": "34.122.184.33",
+          "name": "Charli3",
+          "port": 6000
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    },
+{
+      "accessPoints": [
+        {
+          "address": "52.202.89.91",
+          "name": "fow",
+          "port": 3000
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    },
+{
+      "accessPoints": [
+        {
+          "address": "89.160.112.162",
+          "name": "ahlnet",
+          "port": 2104
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    },
+{
+      "accessPoints": [
+        {
+          "address": "34.172.103.126",
+          "name": "sp247",
+          "port": 3001
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    },
+{
+      "accessPoints": [
+        {
+          "address": "34.72.34.21",
+          "name": "rsm",
+          "port": 3001
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    },
+{
+      "accessPoints": [
+        {
+          "address": "172.210.35.204",
+          "name": "oasis",
+          "port": 5521
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    },
+{
+      "accessPoints": [
+        {
+          "address": "74.122.122.121",
+          "name": "bbhmm",
+          "port": 5521
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    },
+{
+      "accessPoints": [
+        {
+          "address": "167.235.164.238",
+          "name": "steel",
+          "port": 7532
+        }
+      ],
+      "advertise": true,
+      "valency": 1,
+      "trustable": false
+    }
+
+  ],
+  "publicRoots" : [
+    { "accessPoints": [
+        { "address": "relay-0.prime.testnet.apexfusion.org", "port": 5521 },
+        { "address": "relay-1.prime.testnet.apexfusion.org", "port": 5521 }
+      ],
+      "advertise": true,
+      "valency": 1
+    }
+  ],
+  "useLedgerAfterSlot": 0
+}
