@@ -1,0 +1,65 @@
+{
+  "bootstrapPeers": [
+    { "address": "bootstrap.prime.mainnet.apexfusion.org", "port": 5521 }
+  ],
+  "localRoots": [
+    {
+      "accessPoints": [
+        { "address": "relay-g1.prime.mainnet.apexfusion.org", "port": 5521 },
+        { "address": "relay-g2.prime.mainnet.apexfusion.org", "port": 5521 }
+      ],
+      "advertise": true,
+      "trustable": true,
+      "hotValency": 1
+    },
+    {
+      "accessPoints": [
+        { "address": "MY BP 1", "port": XXXX }
+      ],
+      "advertise": false,
+      "trustable": true,
+      "hotValency": 1
+    },
+    {
+      "accessPoints": [
+        { "address": "My BP 2", "port": XXXx }
+      ],
+      "advertise": false,
+      "trustable": true,
+      "hotValency": 1
+    }
+  ],
+  "publicRoots" : [
+  {
+      "accessPoints": [
+        { "address": "84.247.178.31", 	                      "port": 6000, "pool": "KASH"  },
+        { "address": "32.218.113.187",                        "port": 5550, "pool": "KASH2" },
+        { "address": "het-0.titanstaking.io",                 "port": 6000, "pool": "TITAN" },
+        { "address": "het-6.titanstaking.io",                 "port": 6000, "pool": "TITAN" },
+        { "address": "het-7.titanstaking.io",                 "port": 6000, "pool": "TITAN" },
+        { "address": "r1.mainnet.apex.crowdano.com",          "port": 5521, "pool": "CROW"  },
+        { "address": "r2.mainnet.apex.crowdano.com",          "port": 5521, "pool": "CROW"  },
+        { "address": "prime1.adaloop.org",                    "port": 5522, "pool": "ALOOP" },
+        { "address": "apex-prime-mainnet1.volcyada.com",      "port": 4550, "pool": "VOLCY" },
+        { "address": "apex-prime-mainnet2.volcyada.com",      "port": 4551, "pool": "VOLCY" },
+        { "address": "afpm.cryptoblocks.pro",                 "port": 5520, "pool": "CBLK"  },
+        { "address": "pm-relay1.apexpool.info",               "port": 5001, "pool": "APEX"  },
+        { "address": "35.222.227.90",                         "port": 3001, "pool": "RSMN"  },
+        { "address": "35.208.224.170",                        "port": 3001, "pool": "SP247" },
+        { "address": "oasis-relays.stakeoasis.io",            "port": 6000, "pool": "OASIS" },
+        { "address": "apex-relay-1-mainnet.chainindex.chat",  "port": 5522, "pool": "CHAIN" },
+        { "address": "74.122.122.118",                        "port": 5521, "pool": "BBHMM" },
+        { "address": "74.122.122.119",                        "port": 5521, "pool": "BBHMM" },
+        { "address": "148.72.159.24",                         "port": 6000, "pool": "CHIL"  },
+        { "address": "apex-relay-01.alexpool.online",         "port": 5521, "pool": "ALEX1" },
+        { "address": "apex-relay-02.alexpool.online",         "port": 5521, "pool": "ALEX1" },
+        { "address": "143.47.253.137",                        "port": 6001, "pool": "OYSTR" },
+        { "address": "87.106.103.22",                         "port": 6000, "pool": "OYSTR" },
+        { "address": "87.106.102.86",                         "port": 6001, "pool": "NMBRS" }
+     ],
+      "advertise": false,
+      "valency": 24
+    }
+  ],
+  "useLedgerAfterSlot": 0
+}
